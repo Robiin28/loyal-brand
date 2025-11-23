@@ -17,7 +17,7 @@ function App() {
   });
 
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const { cart, totalItems, addToCart } = useCart();
+  const { totalItems, addToCart } = useCart();
 
   const filteredProducts = useMemo(() => {
     let filtered = products.filter(product => {
