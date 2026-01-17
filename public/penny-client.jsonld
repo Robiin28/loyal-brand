@@ -1,6 +1,6 @@
 {
   "@context": "https://www.w3.org/ns/solid/acp#",
-  "id": "https://your-vercel-domain.vercel.app/penny-client.jsonld",
+  "id": "https://loyal-brand.vercel.app/penny-client.jsonld",
   "type": "Client",
   "name": "Penny App",
   "redirect_uris": [
