@@ -1,9 +1,15 @@
 {
-  "@context": "https://www.w3.org/ns/solid/acp#",
-  "id": "https://loyal-brand.vercel.app/penny-client.jsonld",
-  "type": "Client",
-  "name": "Penny App",
+  "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
+  "client_id": "https://loyal-brand.vercel.app/penny-client.jsonld",
+  "client_name": "Penny App",
   "redirect_uris": [
     "http://localhost:5173/"
-  ]
+  ],
+  "scope": "openid offline_access webid",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
 }
